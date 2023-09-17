@@ -8,4 +8,4 @@ console.log(url);
 
 const bgImage = document.getElementById("background");
 
-bgImage.style.backgroundImage = `url(${url})`;
+bgImage.style.backgroundImage = `url("${url}")`;
